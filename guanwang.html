@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UZGM</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .banner {
+            background: url('banner.jpg') no-repeat center center/cover;
+            height: 50vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            padding: 0 2rem;
+        }
+        .banner h1 {
+            font-size: 3rem;
+        }
+        .content {
+            padding: 2rem;
+        }
+        .section {
+            margin-bottom: 2rem;
+        }
+        .section h2 {
+            color: #4CAF50;
+            margin-bottom: 1rem;
+        }
+        .section p {
+            line-height: 1.6;
+        }
+        .services {
+            display: flex;
+            justify-content: space-around;
+        }
+        .service {
+            width: 30%;
+            padding: 1rem;
+            background-color: #f9f9f9;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>UZGM</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#about">US</a></li>
+        <li><a href="#services">Business</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<div class="banner">
+    <h1>UZGM</h1>
+</div>
+
+<div class="content">
+    <div id="about" class="section">
+        <h2>US</h2>
+        <p>UZNetwork technology companies are committed to providing high-quality network technology solutions. Our team is composed of professional technicians who focus on innovation and customer satisfaction。</p>
+    </div>
+
+    <div id="services" class="section services">
+        <div class="service">
+            <h3>Operations Services</h3>
+            <p>We provide comprehensive operational services to ensure the smooth operation of your business。</p>
+        </div>
+        <div class="service">
+            <h3>financial management</h3>
+            <p>Our team of financial experts will help you optimize financial management and enhance profitability。</p>
+        </div>
+        <div class="service">
+            <h3>technical support</h3>
+            <p>Our technical support team is always on standby to provide you with timely technical assistance。</p>
+        </div>
+    </div>
+
+    <div id="contact" class="section">
+        <h2>contact us</h2>
+        <p>Address: No. 123, Street X, a certain city</p>
+        <p>Telephone: 123-456-7890</p>
+        <p>mail: info@uztech.com</p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 UZNetwork technology company All rights reserved.</p>
+</footer>
+
+</body>
+</html>
